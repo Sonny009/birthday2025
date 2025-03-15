@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/birthday2025/static/css/main.27c6faf4.css",
+    "main.js": "/birthday2025/static/js/main.e28f8ded.js",
+    "static/js/453.ed3810f9.chunk.js": "/birthday2025/static/js/453.ed3810f9.chunk.js",
+    "static/media/cosmos-bottom.png": "/birthday2025/static/media/cosmos-bottom.138e215e84c2bf07b89e.png",
+    "static/media/glitter.png": "/birthday2025/static/media/glitter.02be6c42d32873464cfe.png",
+    "static/media/cosmos-middle-trans.png": "/birthday2025/static/media/cosmos-middle-trans.80ab50331279c5443b3e.png",
+    "static/media/illusion-mask.png": "/birthday2025/static/media/illusion-mask.959b9fa8d5bfade18600.png",
+    "static/media/vmaxbg.jpg": "/birthday2025/static/media/vmaxbg.8900ee0a02ea2aa5d82f.jpg",
+    "static/media/grain.webp": "/birthday2025/static/media/grain.c4afeb0384ea214dde6f.webp",
+    "static/media/illusion.png": "/birthday2025/static/media/illusion.3653b0088b02073cc60d.png",
+    "static/media/cosmos-top-trans.png": "/birthday2025/static/media/cosmos-top-trans.d8423f38ac45ef7b81ef.png",
+    "static/media/geometric.png": "/birthday2025/static/media/geometric.c0b2bf76b56ecbd5525a.png",
+    "static/media/ancient.png": "/birthday2025/static/media/ancient.de2663fe6b3d5c773611.png",
+    "static/media/trainerbg.png": "/birthday2025/static/media/trainerbg.77bbc079d8e0080a4113.png",
+    "index.html": "/birthday2025/index.html",
+    "main.27c6faf4.css.map": "/birthday2025/static/css/main.27c6faf4.css.map",
+    "main.e28f8ded.js.map": "/birthday2025/static/js/main.e28f8ded.js.map",
+    "453.ed3810f9.chunk.js.map": "/birthday2025/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27c6faf4.css",
+    "static/js/main.e28f8ded.js"
+  ]
+}
