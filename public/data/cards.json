@@ -1,0 +1,85 @@
+[
+    
+    {
+        "id": "swshp-SWSH179",
+        "set": "swshp",
+        "name": "Flareon V",
+        "supertype": "Pokémon",
+        "subtypes": ["Basic", "V", "Single Strike"],
+        "types": ["Fire"],
+        "number": "SWSH179",
+        "rarity": "rare holo v",
+        "images": {
+          "small": "https://images.pokemontcg.io/swshp/SWSH179.png",
+          "large": "https://images.pokemontcg.io/swshp/SWSH179_hires.png",
+          "foil": "/foils/179_foil_etched_sunpillar_2x.webp",
+          "mask": "/masks/179_foil_etched_sunpillar_2x.webp"
+        }
+      },
+
+
+      {
+        "id": "swsh9-132",
+        "set": "swsh9",
+        "name": "Boss's Orders",
+        "supertype": "Trainer",
+        "subtypes": ["Supporter"],
+        "number": "132",
+        "rarity": "rare holo",
+        "images": {
+          "small": "/cards/escape.png",
+          "large": "/cards/escape.png",
+          "foil": "/foils/132_foil_holo_swholo_2x.webp",
+          "mask": "/masks/132_foil_holo_swholo_2x.webp"
+        }
+      },
+    {
+      "id": "swsh9-132",
+      "set": "swsh9",
+      "name": "Boss's Orders",
+      "supertype": "Trainer",
+      "subtypes": ["Supporter"],
+      "number": "132",
+      "rarity": "rare holo",
+      "images": {
+        "small": "https://images.pokemontcg.io/swsh9/132.png",
+        "large": "https://images.pokemontcg.io/swsh9/132_hires.png",
+        "foil": "/foils/132_foil_holo_swholo_2x.webp",
+        "mask": "/masks/132_foil_holo_swholo_2x.webp"
+      }
+    },
+    
+    {
+      "id": "swshp-SWSH127",
+      "set": "swshp",
+      "name": "Eevee",
+      "supertype": "Pokémon",
+      "subtypes": ["Basic"],
+      "types": ["Colorless"],
+      "number": "SWSH127",
+      "rarity": "rare holo cosmos",
+      "images": {
+        "small": "https://images.pokemontcg.io/swshp/SWSH127.png",
+        "large": "https://images.pokemontcg.io/swshp/SWSH127_hires.png",
+        "foil": "/foils/127_foil_holo_cosmos_2x.webp",
+        "mask": "/masks/127_foil_holo_cosmos_2x.webp"
+      }
+    },
+
+    {
+      "id": "swsh12-59",
+      "set": "swsh12",
+      "name": "Radiant Alakazam",
+      "supertype": "Pokémon",
+      "subtypes": ["Basic", "Radiant"],
+      "types": ["Psychic"],
+      "number": "59",
+      "rarity": "Radiant Rare",
+      "images": {
+        "small": "https://images.pokemontcg.io/swsh12/59.png",
+        "large": "https://images.pokemontcg.io/swsh12/59_hires.png",
+        "foil": "/foils/059_foil_etched_radiantholo_2x.webp",
+        "mask": "/masks/059_foil_etched_radiantholo_2x.webp"
+      }
+    }
+  ]
