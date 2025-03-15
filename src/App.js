@@ -25,6 +25,7 @@ import './css/shiny-vmax.css';
 import './css/swsh-pikachu.css';
 import './App.css';
 import Card from './Card';
+import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -51,24 +52,40 @@ function App() {
     
   useEffect(() => {
     loadCards();
-    console.log(courseGift)
   }, []);
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={"assets/birthday.png"} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        <motion.header className="App-header" initial={{ scale: 0, rotate: -15 }}
+                animate={{ 
+                    scale: [0, 1.2, 1],
+                    rotate: [ -15, 5, 0 ]
+                }}
+                transition={{
+                    duration: 1.2,
+                    ease: "easeOut",
+                    bounce: 0.5
+                }}><img src={"assets/birthday.png"} className="App-logo" alt="logo" />
+        <motion.a
           className="App-link"
           href="#gifts"
+          animate={{
+            y: [0, -30, 0, -40, 0, -20, 0],
+            scale: [1, 1.1, 1, 1.15, 1, 0.95, 1],
+            rotate: [0, 5, -5, 0]
+          }}
+          transition={{
+                duration: 3,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "easeInOut"
+          }}
         >
-          Scroll down
-        </a>
-      </header>
+          <img src={"assets/gift.png"} className="gift" alt="logo" />
+        </motion.a>
+        </motion.header>
       <div id="gifts">
+        <p className="pacifico-regular">Ich dachte mir vielleicht mal etwas anders und was tun. Aber da ich nicht genau wusste, worauf du Bock hast, hier ein paar Vorschläge. Gibt aber natürlich noch vieles anderes.</p>
         <div >
             <div className="card-grid">
             {!isLoading && courseGift.map((card, index) => (

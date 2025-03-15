@@ -1,3 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
 .App {
   text-align: center;
   background-color: #282c34;
@@ -33,3 +40,15 @@
     font-weight: 400;
     font-style: normal;
   }
+
+.gift {
+    max-width: 120px;
+    filter: invert();
+}
+
+#gifts p {
+    font-size: 35px;
+    max-width: 1200px;
+    margin: 0 auto 0;
+    padding-top: 150px;
+}

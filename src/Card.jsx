@@ -44,7 +44,7 @@ const Card = ({
     }
     
     const interact = (e) => {
-        if (!isVisible || !cardRef) return;
+        if (!cardRef) return;
 
         setInteracting(true);
 
@@ -85,13 +85,11 @@ const Card = ({
     };
 
     const interactEnd = () => {
-        console.log("hallo");
-            console.log("hasd");
-            setInteracting(false);
-            setSpringRotate({ x: 0, y: 0 });
-            setSpringGlare({ x: 50, y: 50, o: 0 });
-            setSpringBackground({ x: 50, y: 50 });
-            setSpringScale(1);
+        setInteracting(false);
+        setSpringRotate({ x: 0, y: 0 });
+        setSpringGlare({ x: 50, y: 50, o: 0 });
+        setSpringBackground({ x: 50, y: 50 });
+        setSpringScale(1);
     }
 
     const imageLoader = () => {
@@ -116,6 +114,7 @@ const Card = ({
 
       const activate = () => {
         setIsActive(true);
+        setInteracting(true);
       }
 
       useEffect(() => {
